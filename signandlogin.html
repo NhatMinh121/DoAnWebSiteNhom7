@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .form-group button:hover {
+            background-color: #155db2;
+        }
+        
+        .login-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .login-link a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Logocnd.png" alt="Logo Tin Tức">
+        </div>
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm bài viết...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <a href="#local-news">Tin Tức Khu Vực</a>
+            <a href="signandlogin.html">Đăng Ký</a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="news.html">Tin Tức Mới</a></li>
+            <li><a href="politics.html">Chính Trị</a></li>
+            <li><a href="tech.html">Công Nghệ</a></li>
+            <li><a href="sports.html">Thể Thao</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Đăng Ký</h2>
+        <div class="form-group">
+            <label for="register-email">Email</label>
+            <input type="email" id="register-email" placeholder="Nhập email">
+        </div>
+        <div class="form-group">
+            <label for="register-password">Mật khẩu</label>
+            <input type="password" id="register-password" placeholder="Nhập mật khẩu">
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Xác nhận mật khẩu</label>
+            <input type="password" id="confirm-password" placeholder="Nhập lại mật khẩu">
+        </div>
+        <div class="form-group">
+            <button>Đăng Ký</button>
+        </div>
+        <div class="login-link">
+            <p>Bạn đã có tài khoản? <a href="login.html">Đăng Nhập</a></p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/70cd7f8cce.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
